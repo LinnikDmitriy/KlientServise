@@ -12,6 +12,7 @@
 		2715348F2729CCE60058E088 /* FrindsViewController+TableDelegat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2715348E2729CCE50058E088 /* FrindsViewController+TableDelegat.swift */; };
 		271534912729CD0E0058E088 /* FrindsViewController+CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271534902729CD0E0058E088 /* FrindsViewController+CollectionDataSource.swift */; };
 		271534932729CD4A0058E088 /* FrindsViewController+FillData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271534922729CD4A0058E088 /* FrindsViewController+FillData.swift */; };
+		271E818927B9963D00F9A641 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E818827B9963D00F9A641 /* Singleton.swift */; };
 		275A9D2127282D1000A0C4BE /* GalleryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A9D1F27282D1000A0C4BE /* GalleryCollectionCell.swift */; };
 		275A9D2227282D1000A0C4BE /* GalleryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275A9D2027282D1000A0C4BE /* GalleryCollectionCell.xib */; };
 		275A9D24272833C000A0C4BE /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A9D23272833C000A0C4BE /* GalleryViewController.swift */; };
@@ -40,6 +41,7 @@
 		2715348E2729CCE50058E088 /* FrindsViewController+TableDelegat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FrindsViewController+TableDelegat.swift"; sourceTree = "<group>"; };
 		271534902729CD0E0058E088 /* FrindsViewController+CollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FrindsViewController+CollectionDataSource.swift"; sourceTree = "<group>"; };
 		271534922729CD4A0058E088 /* FrindsViewController+FillData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FrindsViewController+FillData.swift"; sourceTree = "<group>"; };
+		271E818827B9963D00F9A641 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		275A9D1F27282D1000A0C4BE /* GalleryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionCell.swift; sourceTree = "<group>"; };
 		275A9D2027282D1000A0C4BE /* GalleryCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionCell.xib; sourceTree = "<group>"; };
 		275A9D23272833C000A0C4BE /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		27B19F3F2719528B00F666C8 /* LessonTwo */ = {
 			isa = PBXGroup;
 			children = (
+				271E818827B9963D00F9A641 /* Singleton.swift */,
 				27F4207227209B410033FD8A /* Model */,
 				27B19F402719528B00F666C8 /* AppDelegate.swift */,
 				27B19F422719528B00F666C8 /* SceneDelegate.swift */,
@@ -259,6 +262,7 @@
 				275A9D2B27283A3100A0C4BE /* GalleryViewController+CollectionDataSource.swift in Sources */,
 				271534912729CD0E0058E088 /* FrindsViewController+CollectionDataSource.swift in Sources */,
 				2715348F2729CCE60058E088 /* FrindsViewController+TableDelegat.swift in Sources */,
+				271E818927B9963D00F9A641 /* Singleton.swift in Sources */,
 				27F420812720C7120033FD8A /* MyGroupsViewController.swift in Sources */,
 				275A9D2127282D1000A0C4BE /* GalleryCollectionCell.swift in Sources */,
 				27F4207F2720AE110033FD8A /* FriendsViewController.swift in Sources */,
